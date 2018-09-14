@@ -1,0 +1,272 @@
+/*body 
+{
+    background-image: url("../images/Background-5.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: auto;
+    /*width: 750px;
+    height: 1px;
+    width: 100%;
+    height: 1px;
+    padding: 10px 10px 250px 10px;
+    font: georgia, serif;
+    text-align:center;
+}
+
+*/
+
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("../images/Background-5.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 
+{
+    font-size: 40px;
+}
+
+p
+{
+    text-align: center;
+    font-size: 35px;
+}
+
+
+#loginDiv
+{
+	font-size: 30px;
+	background-color: white;
+	box-shadow: 3px 6px;
+}
+
+#loggedInDiv
+{
+	font-size: 30px;
+	background-color: white;
+	box-shadow: 3px 6px;
+}
+
+#accessUIDiv
+{
+	font-size: 30px;
+	background-color: white;
+	box-shadow: 3px 6px;
+}
+
+#usersPage
+{
+	font: georgia, serif;
+	font-size: 30px;
+	background-color: white;
+	box-shadow: 3px 6px;
+}
+#addPage
+{
+	font: georgia, serif;
+	font-size: 30px;
+	background-color: white;
+	box-shadow: 3px 6px;
+}
+#contactPage
+{
+	font: georgia, serif;
+	font-size: 30px;
+	background-color: white;
+	box-shadow: 3px 6px;
+}
+#createAccountPage
+{
+	font: georgia, serif;
+	font-size: 30px;
+	background-color: white;
+	box-shadow: 3px 6px;
+}
+#deletePage
+{
+	font: georgia, serif;
+	font-size: 30px;
+	background-color: white;
+	box-shadow: 3px 6px;
+}
+
+#container 
+{
+  width: 10000px;
+  height: auto;
+}
+
+#lboard {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 50%;
+	column-width: 2.5em;
+	overflow-x:auto;
+	overflow-y: scroll;
+}
+
+#lboard td, #schedule th {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    text-align: center;
+    font-size:1.1em;
+}
+
+#lboard tr:nth-child(even){background-color: #f2f2f2;}
+#lboard tr:nth-child(odd){background-color: #A0A0A0;}
+
+#lboard tr:hover {background-color: #ddd;}
+
+#lboard th {
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    background-color: #000000;
+    color: white;
+    font-size:1.1em;
+}
+
+.header
+{
+	width: 100%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+   	
+}
+
+.header-image
+{
+	width: 600;
+	display: block;
+	height: 215;
+	margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.buttons1
+{
+	font: georgia, serif;
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.buttons2
+{
+	font: georgia, serif;
+	background-color: green; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.buttons3
+{
+	font: georgia, serif;
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 8px 8px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.buttons
+{
+	font: georgia, serif;
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.row {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #AFAFAF;
+}
+
+.rank{
+  position: relative;
+  display: inline-block;
+  width: 25%;
+}
+
+.name {
+  position: relative;
+  display: inline-block;
+  width: 75%;
+  line-height: 45px;
+}
+
+.score {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+}
+
+#loginName
+{
+	font-size: 30px;
+}
+#loginPassword
+{
+	font-size: 30px;
+}
+#searchText
+{
+	font-size: 30px;
+}
+#firstNameUsers
+{
+	font-size: 30px;
+}
+#lastNameUsers
+{
+	font-size: 30px;
+}
+#usernameUsers
+{
+	font-size: 30px;
+}
+#passwordUsers
+{
+	font-size: 30px;
+}
+#number
+{
+	font-size: 30px;
+}
+#colorText
+{
+	font-size: 30px;
+}
+

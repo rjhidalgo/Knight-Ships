@@ -1,0 +1,12 @@
+UpdateLobby.PHP
+
+get parent_id & lobby_id
+
+return login and ready state for everyone in the lobby
+
+
+DelLobbies.php
+
+get lobby_id
+
+delete only by the lobby_id
